@@ -1,0 +1,27 @@
+[0.170s] Invoking command in '/home/tf1/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tf1/build/my_robot_description -- -j8 -l8
+[1.042s] Invoked command in '/home/tf1/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tf1/build/my_robot_description -- -j8 -l8
+[1.410s] Invoking command in '/home/tf1/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tf1/build/my_robot_description
+[1.559s] -- Install configuration: ""
+[1.578s] -- Up-to-date: /home/tf1/install/my_robot_description/share/my_robot_description//urdf
+[1.629s] -- Up-to-date: /home/tf1/install/my_robot_description/share/my_robot_description//urdf/my_robot.urdf
+[1.661s] -- Up-to-date: /home/tf1/install/my_robot_description/share/my_robot_description//launch
+[1.717s] -- Installing: /home/tf1/install/my_robot_description/share/my_robot_description//launch/display.launch.py
+[1.852s] -- Up-to-date: /home/tf1/install/my_robot_description/share/my_robot_description//launch/display.launch.xml
+[1.872s] -- Up-to-date: /home/tf1/install/my_robot_description/share/my_robot_description//rviz
+[1.918s] -- Up-to-date: /home/tf1/install/my_robot_description/share/my_robot_description//rviz/configuration.rviz
+[1.969s] -- Up-to-date: /home/tf1/install/my_robot_description/share/ament_index/resource_index/package_run_dependencies/my_robot_description
+[2.021s] -- Up-to-date: /home/tf1/install/my_robot_description/share/ament_index/resource_index/parent_prefix_path/my_robot_description
+[2.051s] -- Up-to-date: /home/tf1/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.sh
+[2.084s] -- Up-to-date: /home/tf1/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.dsv
+[2.109s] -- Up-to-date: /home/tf1/install/my_robot_description/share/my_robot_description/environment/path.sh
+[2.144s] -- Up-to-date: /home/tf1/install/my_robot_description/share/my_robot_description/environment/path.dsv
+[2.172s] -- Up-to-date: /home/tf1/install/my_robot_description/share/my_robot_description/local_setup.bash
+[2.197s] -- Up-to-date: /home/tf1/install/my_robot_description/share/my_robot_description/local_setup.sh
+[2.227s] -- Up-to-date: /home/tf1/install/my_robot_description/share/my_robot_description/local_setup.zsh
+[2.260s] -- Up-to-date: /home/tf1/install/my_robot_description/share/my_robot_description/local_setup.dsv
+[2.285s] -- Installing: /home/tf1/install/my_robot_description/share/my_robot_description/package.dsv
+[2.401s] -- Up-to-date: /home/tf1/install/my_robot_description/share/ament_index/resource_index/packages/my_robot_description
+[2.440s] -- Up-to-date: /home/tf1/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig.cmake
+[2.467s] -- Up-to-date: /home/tf1/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig-version.cmake
+[2.498s] -- Up-to-date: /home/tf1/install/my_robot_description/share/my_robot_description/package.xml
+[2.518s] Invoked command in '/home/tf1/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tf1/build/my_robot_description

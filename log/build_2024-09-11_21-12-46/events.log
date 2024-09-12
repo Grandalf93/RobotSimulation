@@ -1,0 +1,107 @@
+[0.000000] (-) TimerEvent: {}
+[0.001251] (my_robot_description) JobQueued: {'identifier': 'my_robot_description', 'dependencies': OrderedDict()}
+[0.002006] (my_robot_description) JobStarted: {'identifier': 'my_robot_description'}
+[0.096487] (-) TimerEvent: {}
+[0.197365] (-) TimerEvent: {}
+[0.230267] (my_robot_description) JobProgress: {'identifier': 'my_robot_description', 'progress': 'cmake'}
+[0.297543] (-) TimerEvent: {}
+[0.308452] (my_robot_description) JobProgress: {'identifier': 'my_robot_description', 'progress': 'build'}
+[0.319471] (my_robot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tf1/build/my_robot_description', '--', '-j8', '-l8'], 'cwd': '/home/tf1/build/my_robot_description', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/4849ca9bdf9666755eb463db297b69e5385090e3/bin/helpers/browser.sh'), ('HOME', '/home/juand'), ('OLDPWD', '/home/tf1/src'), ('TERM_PROGRAM_VERSION', '1.93.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-7ec0cfb6-780b-4a01-84a6-6a489cc15e3c.sock'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/4849ca9bdf9666755eb463db297b69e5385090e3/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/tf1/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-6c374ac7-b8fa-44d2-a583-5a0f0c90d0b4.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/4849ca9bdf9666755eb463db297b69e5385090e3/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/home/juand/.gnupg/S.gpg-agent"]'), ('DISPLAY', 'host.docker.internal:0.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-0398097f5d.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/home/tf1/install/my_robot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/tf1/build/my_robot_description'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tf1/install/my_robot_description:/opt/ros/humble')]), 'shell': False}
+[0.397759] (-) TimerEvent: {}
+[0.498742] (-) TimerEvent: {}
+[0.599617] (-) TimerEvent: {}
+[0.700696] (-) TimerEvent: {}
+[0.801726] (-) TimerEvent: {}
+[0.902559] (-) TimerEvent: {}
+[1.003447] (-) TimerEvent: {}
+[1.104591] (-) TimerEvent: {}
+[1.105319] (my_robot_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.204802] (-) TimerEvent: {}
+[1.305806] (-) TimerEvent: {}
+[1.406870] (-) TimerEvent: {}
+[1.507863] (-) TimerEvent: {}
+[1.608834] (-) TimerEvent: {}
+[1.710255] (-) TimerEvent: {}
+[1.811232] (-) TimerEvent: {}
+[1.912214] (-) TimerEvent: {}
+[2.013002] (-) TimerEvent: {}
+[2.113795] (-) TimerEvent: {}
+[2.214811] (-) TimerEvent: {}
+[2.315856] (-) TimerEvent: {}
+[2.416712] (-) TimerEvent: {}
+[2.517727] (-) TimerEvent: {}
+[2.562951] (my_robot_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.617890] (-) TimerEvent: {}
+[2.718656] (-) TimerEvent: {}
+[2.819669] (-) TimerEvent: {}
+[2.920675] (-) TimerEvent: {}
+[3.021650] (-) TimerEvent: {}
+[3.122957] (-) TimerEvent: {}
+[3.178463] (my_robot_description) StdoutLine: {'line': b'-- Generating done\n'}
+[3.223154] (-) TimerEvent: {}
+[3.302292] (my_robot_description) StdoutLine: {'line': b'-- Build files have been written to: /home/tf1/build/my_robot_description\n'}
+[3.323344] (-) TimerEvent: {}
+[3.424685] (-) TimerEvent: {}
+[3.526056] (-) TimerEvent: {}
+[3.627051] (-) TimerEvent: {}
+[3.637785] (my_robot_description) CommandEnded: {'returncode': 0}
+[3.727234] (-) TimerEvent: {}
+[3.828066] (-) TimerEvent: {}
+[3.911375] (my_robot_description) JobProgress: {'identifier': 'my_robot_description', 'progress': 'install'}
+[3.928232] (-) TimerEvent: {}
+[4.029016] (-) TimerEvent: {}
+[4.070935] (my_robot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tf1/build/my_robot_description'], 'cwd': '/home/tf1/build/my_robot_description', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/4849ca9bdf9666755eb463db297b69e5385090e3/bin/helpers/browser.sh'), ('HOME', '/home/juand'), ('OLDPWD', '/home/tf1/src'), ('TERM_PROGRAM_VERSION', '1.93.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-7ec0cfb6-780b-4a01-84a6-6a489cc15e3c.sock'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/4849ca9bdf9666755eb463db297b69e5385090e3/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/tf1/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-6c374ac7-b8fa-44d2-a583-5a0f0c90d0b4.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/4849ca9bdf9666755eb463db297b69e5385090e3/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/home/juand/.gnupg/S.gpg-agent"]'), ('DISPLAY', 'host.docker.internal:0.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-0398097f5d.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/home/tf1/install/my_robot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/tf1/build/my_robot_description'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tf1/install/my_robot_description:/opt/ros/humble')]), 'shell': False}
+[4.129378] (-) TimerEvent: {}
+[4.230930] (-) TimerEvent: {}
+[4.266454] (my_robot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.289352] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/tf1/install/my_robot_description/share/my_robot_description//urdf\n'}
+[4.331127] (-) TimerEvent: {}
+[4.357642] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/tf1/install/my_robot_description/share/my_robot_description//urdf/my_robot.urdf\n'}
+[4.388758] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/tf1/install/my_robot_description/share/my_robot_description//launch\n'}
+[4.431317] (-) TimerEvent: {}
+[4.458419] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/tf1/install/my_robot_description/share/my_robot_description//launch/display.launch.xml\n'}
+[4.531505] (-) TimerEvent: {}
+[4.632916] (-) TimerEvent: {}
+[4.642599] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/tf1/install/my_robot_description/share/ament_index/resource_index/package_run_dependencies/my_robot_description\n'}
+[4.713069] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/tf1/install/my_robot_description/share/ament_index/resource_index/parent_prefix_path/my_robot_description\n'}
+[4.733000] (-) TimerEvent: {}
+[4.833946] (-) TimerEvent: {}
+[4.898718] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/tf1/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.sh\n'}
+[4.934219] (-) TimerEvent: {}
+[4.958926] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/tf1/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.dsv\n'}
+[5.034394] (-) TimerEvent: {}
+[5.117400] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/tf1/install/my_robot_description/share/my_robot_description/environment/path.sh\n'}
+[5.134549] (-) TimerEvent: {}
+[5.159014] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/tf1/install/my_robot_description/share/my_robot_description/environment/path.dsv\n'}
+[5.234772] (-) TimerEvent: {}
+[5.290383] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/tf1/install/my_robot_description/share/my_robot_description/local_setup.bash\n'}
+[5.328944] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/tf1/install/my_robot_description/share/my_robot_description/local_setup.sh\n'}
+[5.334953] (-) TimerEvent: {}
+[5.371412] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/tf1/install/my_robot_description/share/my_robot_description/local_setup.zsh\n'}
+[5.408071] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/tf1/install/my_robot_description/share/my_robot_description/local_setup.dsv\n'}
+[5.435128] (-) TimerEvent: {}
+[5.522027] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/tf1/install/my_robot_description/share/my_robot_description/package.dsv\n'}
+[5.535322] (-) TimerEvent: {}
+[5.636289] (-) TimerEvent: {}
+[5.665386] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/tf1/install/my_robot_description/share/ament_index/resource_index/packages/my_robot_description\n'}
+[5.710045] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/tf1/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig.cmake\n'}
+[5.736518] (-) TimerEvent: {}
+[5.742561] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/tf1/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig-version.cmake\n'}
+[5.789620] (my_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/tf1/install/my_robot_description/share/my_robot_description/package.xml\n'}
+[5.809756] (my_robot_description) CommandEnded: {'returncode': 0}
+[5.836714] (-) TimerEvent: {}
+[5.937568] (-) TimerEvent: {}
+[6.038530] (-) TimerEvent: {}
+[6.139520] (-) TimerEvent: {}
+[6.240529] (-) TimerEvent: {}
+[6.342035] (-) TimerEvent: {}
+[6.443416] (-) TimerEvent: {}
+[6.544348] (-) TimerEvent: {}
+[6.645179] (-) TimerEvent: {}
+[6.746578] (-) TimerEvent: {}
+[6.847579] (-) TimerEvent: {}
+[6.949055] (-) TimerEvent: {}
+[7.050593] (-) TimerEvent: {}
+[7.151564] (-) TimerEvent: {}
+[7.210403] (my_robot_description) JobEnded: {'identifier': 'my_robot_description', 'rc': 0}
+[7.238348] (-) EventReactorShutdown: {}
