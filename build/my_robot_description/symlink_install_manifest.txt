@@ -1,5 +1,6 @@
 /home/tf1/install/my_robot_description/share/my_robot_description//urdf/common_properties.urdf.xacro
 /home/tf1/install/my_robot_description/share/my_robot_description//urdf/mobile_base.urdf.xacro
+/home/tf1/install/my_robot_description/share/my_robot_description//urdf/mobile_base_gazebo.xacro
 /home/tf1/install/my_robot_description/share/my_robot_description//urdf/my_robot.urdf.xacro
 /home/tf1/install/my_robot_description/share/my_robot_description//launch/display.launch.py
 /home/tf1/install/my_robot_description/share/my_robot_description//launch/display.launch.xml

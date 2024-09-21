@@ -19,6 +19,16 @@
             <origin xyz="0 0 ${base_height/2.0}" rpy= "0 0 0"/>
             <material name="blue"/>
         </visual>
+
+        <collision>
+            <geometry>
+                <box size="${base_length} ${base_width} ${base_height}"/>    <!--In meters(m)-->        
+            </geometry>
+            <origin xyz="0 0 ${base_height/2.0}" rpy= "0 0 0"/>
+        </collision>
+        
+        <xacro:box_inertia m="5.0" l="${2*base_length}" w="${2*base_width}" h="${2*base_height}"
+                            xyz="0 0 ${base_height/2.0}" rpy="0 0 0"/>
     </link>
 
 
@@ -30,7 +40,17 @@
                 </geometry>
                 <origin xyz="0 0 0" rpy="${pi/2.0} 0 0"/>
                 <material name="grey"/>
-            </visual>           
+            </visual> 
+
+            <collision>
+                <geometry>
+                    <cylinder radius="${wheel_radius}" length="${wheel_length}"/>                
+                </geometry>
+                <origin xyz="0 0 0" rpy="${pi/2.0} 0 0"/>                
+            </collision>
+
+            <xacro:cylinder_inertia m="1.0" r="${2*wheel_radius}" l="${2*wheel_length}"
+                                    xyz="0 0 0" rpy="${pi/2.0} 0 0"/>       
         </link>
     </xacro:macro>
 
@@ -45,6 +65,17 @@
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <material name="grey"/>
         </visual>
+
+        <collision>
+            <geometry>
+                <sphere radius="${wheel_radius/2.0}"/>
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0"/>       
+        </collision>
+
+        <xacro:sphere_inertia m="0.5" r="${2*wheel_radius/2.0}" 
+                              xyz="0 0 0" rpy="0 0 0"/>
+
     </link>
 
     <link name="base_footprint">

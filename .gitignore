@@ -1,0 +1,6 @@
+*.log
+*.cmake
+*.stamp
+/build
+/install
+
