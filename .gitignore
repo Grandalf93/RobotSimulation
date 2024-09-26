@@ -3,6 +3,9 @@
 *.stamp
 build/
 install/
+log/
+
+
 
 
 
