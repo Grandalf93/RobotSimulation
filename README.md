@@ -13,7 +13,7 @@ It is advisable to use [VS Code](https://code.visualstudio.com/) as the main IDE
  2. [Dev-container extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) 
  3. [VcXsrv Windows X Server](https://sourceforge.net/projects/vcxsrv/)
 
-**for further documentation on dockerizing ROS2: **  [Setup docker and ROS2](https://docs.ros.org/en/foxy/How-To-Guides/Setup-ROS-2-with-VSCode-and-Docker-Container.html)
+**for further documentation on dockerizing ROS2:**  [Setup docker and ROS2](https://docs.ros.org/en/foxy/How-To-Guides/Setup-ROS-2-with-VSCode-and-Docker-Container.html)
  
 ## structure and packages
 The ROS2 workspace consists of two packages: `my_robot_bringup` so as to spawn the robot in gabezo and  `my_robot_bringup` used for debugging purposes
